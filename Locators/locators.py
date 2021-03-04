@@ -2,7 +2,7 @@
 class Locators():
 
     """ Create Account Page Objects """
-    signupbutton = "/html/body/div[1]/div/div/div[2]/div/div/div/div[2]/div[1]/div[2]"
+    signupbutton = "//*[@id='root']/div/div/div[2]/div/div/div[2]/div[1]/div[2]"
     name_id = "txtName"
     surname_id = "txtSurname"
     email_id = "txtEmail"
